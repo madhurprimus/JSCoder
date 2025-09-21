@@ -7,7 +7,7 @@
     "test": "jest",
     "start": "parcel index.html",
     "build": "parcel build index.html",
-    "predeploy": "npm run build",
+    "predeploy": "pnpm run build",
     "deploy": "gh-pages -d dist"
   },
   "keywords": [],
